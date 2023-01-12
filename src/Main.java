@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Enter your Name, password, balance to create account");
 
         //create USER
-        String name = sc.nextLine();
+        String name = sc.nextLine();gt
         String password = sc.nextLine();
         double balance = sc.nextDouble();
         SBIuser user = new SBIuser(name,balance,password);
